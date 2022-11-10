@@ -90,7 +90,7 @@
 
   # { key: value }
   # new
-  person = { first_name: 'bob', age: 24, friend: false }
+  # person = { first_name: 'bob', age: 24, friend: false }
   # old 
   # person = { 1 => 'bob', 2 => 24 }
   # person = { 'first_name' => 'bob', "age" => 24 }
@@ -129,19 +129,33 @@
 
   # p people[2][:first_name]
 
-  languages = { 
-    language: {
-      ruby: { 
-        conceived: 1993,
-        awesomeness: 9000
-      },
-      java: {
-        conceived: 1991,
-        awesomeness: false
-      }
-    }
-  }
+  # languages = { 
+  #   language: {
+  #     ruby: { 
+  #       conceived: 1993,
+  #       awesomeness: 9000
+  #     },
+  #     java: {
+  #       conceived: 1991,
+  #       awesomeness: false
+  #     }
+  #   }
+  # }
 
-  p languages[:language][:ruby][:awesomeness]
-  languages[:language][:ruby][:awesomeness] += 1000
-  p languages[:language][:ruby][:awesomeness]
+  # p languages[:language][:ruby][:awesomeness]
+  # languages[:language][:ruby][:awesomeness] += 1000
+  # p languages[:language][:ruby][:awesomeness]
+
+  # person = { first_name: 'bob', age: 24, friend: false }
+  # p person.keys
+  # p person.delete(:age)
+  # p person.clear 
+  # p person.has_key? :car
+
+  # person.each do |key, value|
+  #   puts "#{key} #{value}"
+  # end
+
+  # user = { email: 'aasdfasd@email.com', password: 'password', account: 'admin'}
+
+# ruby gems 
