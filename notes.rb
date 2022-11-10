@@ -42,4 +42,42 @@
   #   puts "#{i + 1}. #{letter}"
   # end
 
+  # modifing array 
+  # letters = ['a', 'b', 'c']
+  # add item to an arr 
+  # add it at the end *
+  # letters << 'd'
+  # p letters
+  # add it at the front 
+  # letters.unshift('z')
+  # p letters
+  # add by the index 
+  # letters.insert(1, 'h')
+  # p letters
 
+  # letters = ['a', 'b', 'c']
+  # remove items from the arr 
+  # remove last item 
+  # p letters.pop
+  # p letters
+  # remove the first item 
+  # p letters.shift()
+  # p letters 
+  # remove by index *
+  # p letters.delete_at(1)
+  # p letters
+
+  # letters = ['a', 'b', 'c']
+  # letters = ['h', 'b', 'e']
+  # p letters.rotate
+  # p letters.reverse
+  # p letters.sort 
+  # p letters.clear 
+  # p letters.shuffle 
+
+  # give you a value randomly 
+  # p letters.sample
+
+  # p letters.join(', ')
+
+  
