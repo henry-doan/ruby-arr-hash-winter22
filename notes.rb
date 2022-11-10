@@ -1,3 +1,16 @@
+require 'colorize'
+require 'pry'
+# puts 'Hello world'
+# puts 'Hello world'.colorize(:red)
+# puts 'Hello world'.blue.on_red
+
+def greeting(planet)
+  # binding.pry
+  # puts name 
+  puts planet 
+end
+
+greeting('mars')
 # Array 
   # - collection of data items 
   # - ref by position 
@@ -158,4 +171,31 @@
 
   # user = { email: 'aasdfasd@email.com', password: 'password', account: 'admin'}
 
-# ruby gems 
+# ruby gems - coding ruby lib, tools, ex. debugging, color text
+# - to use them 
+# - run this command in the iterm 
+# bundle init 
+# - gem file , put all the gems in our project
+# - gem install gemname, locally 
+# add the gem you want to the gem file 
+# have a version
+# any time you change the gemfile you would run this command 
+# bundle install 
+# bundle 
+
+# gem lock file is what you did
+
+# each gem will have some doc, that will show you how to use it
+
+# pry is our debugging tool 
+# # and it uses irb which is a embedded ruby editor in our terminal
+# debug our error
+# putting a binding.pry on where our error occurs 
+# take a look at all the var, and stuff around the code 
+
+# inside the pry you can look at var, 
+# and run ruby 
+# if you see * that means you indent, open something you need to close 
+#   just need to close it 
+# to exit, just type exit 
+# remove the pry
