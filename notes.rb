@@ -80,4 +80,68 @@
 
   # p letters.join(', ')
 
-  
+# Hashes 
+  # - key value pairs, key unique in the hash 
+  # - order doesn't matter  
+  # - object, rep object 
+
+  # h = Hash.new()
+  # h = {}
+
+  # { key: value }
+  # new
+  person = { first_name: 'bob', age: 24, friend: false }
+  # old 
+  # person = { 1 => 'bob', 2 => 24 }
+  # person = { 'first_name' => 'bob', "age" => 24 }
+  # person = { :first_name => 'bob', "age" => 24 }
+
+  # to grab the values of a key
+  # hash[:key]
+  # p person[:age]
+  # p person[:first_name]
+  # p person[:friend]
+  # p person[2] # err
+  # p person[:beard]
+  # p person[:age] += 1
+  # p person[:age]
+  # person[:beard] = true 
+
+  # p person
+
+  # person = {
+  #   first_name: 'Abe',
+  #   last_name: 'Lincoln',
+  #   age: 206,
+  #   awesome_beard?: true,
+  #   quotes: ['Whatever you are, be a good one',"Don't believe everything you read on the internet"]
+  # }
+
+  # p person[:age]
+  # outside in, hash, value array, index
+  # p person[:quotes][1]
+
+  # people = [
+  #   { first_name: "bob", age: 34, hair_color: 'blue' },
+  #   { first_name: "jake", age: 12, hair_color: 'black' },
+  #   { first_name: "sue", age: 42, hair_color: 'brown' },
+  # ]
+
+  # p people[2][:first_name]
+
+  languages = { 
+    language: {
+      ruby: { 
+        conceived: 1993,
+        awesomeness: 9000
+      },
+      java: {
+        conceived: 1991,
+        awesomeness: false
+      }
+    }
+  }
+
+  p languages[:language][:ruby][:awesomeness]
+  languages[:language][:ruby][:awesomeness] += 1000
+  p languages[:language][:ruby][:awesomeness]
